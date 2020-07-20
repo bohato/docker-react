@@ -6,4 +6,6 @@ before_install:
     - docker build -t bohato/docker-react -f Dockerfile.dev .
 
 script:
-    - docker run bohato/docker-react npm run test -- --coverage
+    - docker run -e CI=true bohato/docker-react npm run test
+
+language: generic 
