@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Testing feature branch flow on GitHub
         </a>
       </header>
     </div>
